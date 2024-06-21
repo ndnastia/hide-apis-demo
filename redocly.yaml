@@ -6,7 +6,7 @@ apis:
     decorators:
       remove-x-internal: on
 extends:
-  - recommended
+  - minimal
 rules:
   no-unused-components: error
   no-server-example.com: off
