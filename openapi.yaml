@@ -19,6 +19,7 @@ paths:
             application/json:
               schema:
                $ref: "#/components/schemas/star"
+       security: []
     post:
       operationId: postStars
       x-internal: true
@@ -29,6 +30,7 @@ paths:
           application/json:
             schema:
               $ref: "#/components/schemas/star"
+      security: []  
 components:
   schemas:
     star:
