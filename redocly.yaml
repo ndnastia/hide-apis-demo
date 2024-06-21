@@ -5,3 +5,8 @@ apis:
     root: ./openapi.yaml
     decorators:
       remove-x-internal: on
+extends:
+  - recommended
+rules:
+  no-unused-components: error
+  no-server-example.com: off
